@@ -28,6 +28,8 @@ mythology_sources = {
     "norse": ["Odin", "Thor", "Frigg", "Baldr", "Loki", "Freyja", "Heimdall", "Hel", "Bragi", "Tyr"]
 }
 
+
+
 def generate_exoplanet():
   # Choose a random mythology
   mythology = random.choice(list(mythology_sources.keys()))
